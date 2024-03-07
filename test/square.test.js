@@ -1,4 +1,6 @@
 const Square = require('../lib/square')
+// test for the square shape.  Testing to make sure all fields are pulling from the corerct tags
+
        // label   callback
 describe('Square', ()=>{
     //nested describe, what are we testing?

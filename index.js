@@ -1,11 +1,12 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+// Exports for each shape with the Shape Class inherited in each shape
 const Square = require('./lib/square');
 const Circle = require('./lib/circle');
 const Triangle = require('./lib/triangle');
 
-
+// Inquirer prompts to have the user design their logo.
 inquirer.prompt([
     {
         type: 'input',
@@ -36,7 +37,7 @@ inquirer.prompt([
         default: 'green'
     },
 
-
+// if states being used depending on which shape is chosen above
 ])
   .then((data) => {
     if(data.Shape === 'Square'){

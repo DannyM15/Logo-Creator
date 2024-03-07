@@ -1,5 +1,7 @@
 const Triangle = require('../lib/triangle')
 
+// test for the triangle shape.  Testing to make sure all fields are pulling from the corerct tags
+
 describe('Triangle', ()=> {
     describe('test all properties', ()=>{
         it('test all properties', ()=>{

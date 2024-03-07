@@ -1,5 +1,6 @@
 const Circle = require('../lib/circle')
 
+// test for the circle shape.  Testing to make sure all fields are pulling from the corerct tags
 describe('Circle', ()=>{
     //nested describe, what are we testing?
     describe('Test all properties', ()=>{

@@ -1,5 +1,7 @@
 const Shapes = require('../lib/shapes')
 
+// test for the Shapes.  Testing to make sure all fields are pulling from the corerct tags
+
 describe('Shapes', () => {
     describe('Test all properties', () =>{
         it('text color and shape color', () => {
